@@ -4,8 +4,11 @@
 
 ## 文件夹
 
-- bin 源码
+- bin
   - my-pack.js
+- lib
+  - compiler.js
+  - main.ejs
 - demo 示例
 
 ## npm link 链接 my-pack 到全局
