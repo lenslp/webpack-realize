@@ -1,0 +1,29 @@
+{
+  "name": "webpack-realize",
+  "version": "1.0.0",
+  "description": "手写webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenslp/webpack-realize.git"
+  },
+  "author": "lens",
+  "license": "ISC",
+  "bin": {
+    "my-pack": "./bin/my-pack.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lenslp/webpack-realize/issues"
+  },
+  "homepage": "https://github.com/lenslp/webpack-realize#readme",
+  "dependencies": {
+    "@babel/generator": "^7.11.6",
+    "@babel/traverse": "^7.11.5",
+    "@babel/types": "^7.11.5",
+    "babylon": "^6.18.0",
+    "ejs": "^3.1.5"
+  }
+}
