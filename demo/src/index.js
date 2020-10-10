@@ -1,1 +1,2 @@
-let str = require("./a");
+require("./a");
+require("./index.less");

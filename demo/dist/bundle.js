@@ -71,21 +71,9 @@
       
         "./src\index.js": (function (module, exports, __webpack_require__) {
             eval(
-              `let str = __webpack_require__("./src\\a.js");`
-            );
-        }),
-        
-        "./src\a.js": (function (module, exports, __webpack_require__) {
-            eval(
-              `let b = __webpack_require__("./src\\b.js");
+              `__webpack_require__("./src\\a.js");
 
-module.exports = "a" + b;`
-            );
-        }),
-        
-        "./src\b.js": (function (module, exports, __webpack_require__) {
-            eval(
-              `module.exports = "b";`
+__webpack_require__("./src\\index.less");`
             );
         }),
         

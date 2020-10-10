@@ -9,6 +9,10 @@
 - lib
   - compiler.js
   - main.ejs
+- loaders // 手写 loader
 - demo 示例
+  - src
+  - loaders
+  - plugins
 
 ## npm link 链接 my-pack 到全局
